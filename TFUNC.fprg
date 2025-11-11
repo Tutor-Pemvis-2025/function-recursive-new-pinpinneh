@@ -4,18 +4,18 @@
         <attribute name="name" value="FungsiRekursif"/>
         <attribute name="authors" value="Jeremi"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-11-11 08:43:22 PM"/>
+        <attribute name="saved" value="2025-11-11 08:57:27 PM"/>
         <attribute name="created" value="SmVyZW1pO0pFUkVNSTsyMDI1LTExLTExOzA4OjIyOjIxIFBNOzIzMjA="/>
-        <attribute name="edited" value="SmVyZW1pO0pFUkVNSTsyMDI1LTExLTExOzA4OjQzOjIyIFBNOzE7MjQzMg=="/>
+        <attribute name="edited" value="SmVyZW1pO0pFUkVNSTsyMDI1LTExLTExOzA4OjU3OjI3IFBNOzM7MjQ0NA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="N, hasil" type="Integer" array="False" size=""/>
-            <output expression="&quot;Masukkan bilangan bulat positif (N): &quot;" newline="True"/>
+            <output expression="&quot;Masukkan bilangan bulat positif : &quot;" newline="True"/>
             <input variable="N"/>
             <assign variable="hasil" expression="HitungRekursif(N)"/>
-            <output expression="&quot;Hasil penjumlahan dari 1 sampai &quot; &amp; N &amp; &quot; adalah: &quot; &amp; Hasil" newline="True"/>
+            <output expression="&quot;Hasil perhitungan rekursif &quot; &amp; Hasil" newline="True"/>
         </body>
     </function>
     <function name="HitungRekursif" type="Integer" variable="hasilFungsi">
