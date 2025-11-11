@@ -7,9 +7,9 @@ public class TFUNC {
     public static void main(String[] args) {
         int n, hasil;
 
-        System.out.println("Bilangan yang dimasukkan : ");
         n = Integer.parseInt(input.nextLine());
         hasil = hitungRekursif(n);
+        System.out.println("Bilangan yang dimasukkan : " + n);
         System.out.println("Hasil perhitungan rekursif : " + hasil);
     }
 

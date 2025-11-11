@@ -4,17 +4,17 @@
         <attribute name="name" value="FungsiRekursif"/>
         <attribute name="authors" value="Jeremi"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-11-11 09:01:50 PM"/>
+        <attribute name="saved" value="2025-11-11 09:06:11 PM"/>
         <attribute name="created" value="SmVyZW1pO0pFUkVNSTsyMDI1LTExLTExOzA4OjIyOjIxIFBNOzIzMjA="/>
-        <attribute name="edited" value="SmVyZW1pO0pFUkVNSTsyMDI1LTExLTExOzA5OjAxOjUwIFBNOzQ7MjQzMQ=="/>
+        <attribute name="edited" value="SmVyZW1pO0pFUkVNSTsyMDI1LTExLTExOzA5OjA2OjExIFBNOzU7MjQzNA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="N, hasil" type="Integer" array="False" size=""/>
-            <output expression="&quot;Bilangan yang dimasukkan : &quot;" newline="True"/>
             <input variable="N"/>
             <assign variable="hasil" expression="HitungRekursif(N)"/>
+            <output expression="&quot;Bilangan yang dimasukkan : &quot; &amp;N" newline="True"/>
             <output expression="&quot;Hasil perhitungan rekursif : &quot; &amp; Hasil" newline="True"/>
         </body>
     </function>
