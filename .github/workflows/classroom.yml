@@ -59,7 +59,7 @@ jobs:
           test-name: test-recursive-03
           setup-command: javac TFUNC.java
           command: java TFUNC
-          input: |
+          input: |  
             3
           expected-output: |
             Bilangan yang dimasukkan : 3
