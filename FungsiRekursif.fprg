@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="FungsiRekursif"/>
+        <attribute name="authors" value="Jeremi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-11-11 08:43:22 PM"/>
+        <attribute name="created" value="SmVyZW1pO0pFUkVNSTsyMDI1LTExLTExOzA4OjIyOjIxIFBNOzIzMjA="/>
+        <attribute name="edited" value="SmVyZW1pO0pFUkVNSTsyMDI1LTExLTExOzA4OjQzOjIyIFBNOzE7MjQzMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N, hasil" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan bilangan bulat positif (N): &quot;" newline="True"/>
+            <input variable="N"/>
+            <assign variable="hasil" expression="HitungRekursif(N)"/>
+            <output expression="&quot;Hasil penjumlahan dari 1 sampai &quot; &amp; N &amp; &quot; adalah: &quot; &amp; Hasil" newline="True"/>
+        </body>
+    </function>
+    <function name="HitungRekursif" type="Integer" variable="hasilFungsi">
+        <parameters>
+            <parameter name="angka" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="hasilFungsi" type="Integer" array="False" size=""/>
+            <if expression="angka==1">
+                <then>
+                    <assign variable="hasilFungsi" expression="1"/>
+                </then>
+                <else>
+                    <assign variable="hasilFungsi" expression="angka + HitungRekursif(angka - 1)"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
